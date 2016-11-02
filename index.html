@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Amaziograph</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<canvas id="main-canvas"></canvas>
+		<div id="controls">
+			<div>
+				<input type="range" id="sections" min="2" max="80" value="20">
+			</div>
+			<div id="sections-text">20 sections</div>
+			<div>
+				R <input id="r" type="number" min="0" max="255" value="250">
+				G <input id="g" type="number" min="0" max="255" value="250">
+				B <input id="b" type="number" min="0" max="255" value="250">
+			</div>
+			<div>
+				<button id="reset">Reset</button>
+			</div>
+		</div>
+		<script src="scripts.js"></script>
+	</body>
+</html>
